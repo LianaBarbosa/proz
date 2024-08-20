@@ -1,17 +1,24 @@
 inicio
 escreva("informe seu nome: ")
  leia(nome)
+escreva("o seu nome é :",nome)
+
+escreva ("informe seu endereço:")
+ leia(endereco)
+escreva(o seu endereço é:", endereço)
+
+escreva("informe sua cidade:")
+ leia(cidade)
+escreva("a sua cidade é:",cidade)
 
 escreva("informe seu cpf: ")
  leia(cpf)
+escreva("o seu cpf é:", cpf)
 
 escreva("informe seu rg:")
  leia(rg)
-
-escreva("informe sua altura:")
- leia(altura)
-
-escreva ("informe seu endereço:")
- leia(endereço)
+escreva("o seu rg é:", rg)
 
 fimalgoritmo
+
+
