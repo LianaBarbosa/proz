@@ -1,22 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FLOR & RAMO </title>
-    
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/abelstyle.css">
+    <title>Flor E Ramo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-    <h2>Seu guia completo de jardinagem</h2>
-</header>
-    
 <body>
 
     <header class="header">
         <div class="logo">
-            <img src = "img/florERamo.jfif">
+            <img src="img/florERamoLogo.png" alt="Logo Flor E Ramo">
         </div>
 
         <nav>
@@ -30,74 +26,81 @@
             </div>
         </nav>
 
-
         <div class="login-container">
             <div class="login-icon" id="login-icon">
                 <h4>Área do Cliente</h4>
                 <form id="login-form" class="login-form">
                     <input type="email" id="email" placeholder="Email">
                     <input type="password" id="password" placeholder="Senha">
-                    <!-- Removido o botão e substituído pelo ícone de login com função de submit -->
-                    <img src = "img/flowerIcon.jfif" alt="Ícone de Login" class="login-submit-icon login-icon"
-                        onclick="submitLoginForm()">
+                    <img src="img/flowerIcon.png" alt="Ícone de Login" class="login-submit-icon login-icon">
                 </form>
             </div>
-
         </div>
     </header>
 
+    <main>
+        <section class="intro">
+            <h1>Bem-vindo ao Flor E Ramo</h1>
+        </section>
 
-    <div class="header">
-        <div class ="logo">
-            <h1>FLOR E RAMO</h1>
-            <div class = "container">
-            <div class = "posts">
-
-
-                <div class ="post1"> 
-                    <h2>O Guia Definitivo Para Cultivar Rosas No Seu Jardim</h2>
-                    <spam>9 de julho de 2024</spam>
-                    <img src = "./img/258e6443ce5c4aa802d0f2ccac05521b.jpg"
-                    <p>um toque de elegância e uma explosão de cores em seu espaço verde.
-                         Este guia definitivo aborda todas as etapas necessárias para o sucesso no cultivo de rosas, 
-                         desde a escolha das variedades ideais até as técnicas de plantio, poda e cuidados essenciais.
-                         Aprenda a criar condições perfeitas para suas rosas florescerem, enfrentando desafios comuns 
-                         e desfrutando da beleza e do aroma destas flores majestosas durante toda a temporada.</p>
-                    <li> <a href ="post1.html">Leia mais...</a> </li>
-                    
+        <section class="products">
+            <h2>Produtos</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="img/produtos/lavandaNevada.jpg" alt="Produto 1">
+                    <h3>Lavanda do Monte Gelmir</h3>
+                    <p>R$ 49,99</p>
                 </div>
-
-               
-
-                <div class = "post2">
-                    <h2> Beneficíos Da Lavanda Para a Saúde </h2>
-                    <spam>7 de julho de 2024</spam>
-                    <img src = "img/f976a0a79a91d9f21b891e8f3f42f79f.jpg"
-                    <p>A lavanda é uma planta aromática amplamente reconhecida por seus numerosos benefícios para a saúde, que vão desde o alívio do estresse até a melhoria da qualidade do sono. Este artigo explora as propriedades terapêuticas da lavanda, destacando seus usos na aromaterapia, na medicina tradicional e em produtos de cuidados pessoais. Descubra como a lavanda pode ser incorporada em sua rotina diária para promover bem-estar físico e mental, proporcionando um alívio natural e eficaz para várias condições de saúde.</p>
-                     <a href ="post2.html">Leia mais...</a>
+                <div class="product">
+                    <img src="img/produtos/TulipaGelmir.jpg" alt="Produto 2">
+                    <h3>Tulipas Nobres dos Montes Nevados</h3>
+                    <p>R$ 69,99</p>
                 </div>
-
-
-
-                <div class ="post3">
-                    <h2>Cultivo De Ervas Medicinais: O Guia Para Iniciantes</h2>
-                    <spam>6 de julho de 2024</spam>
-                    <img src = "img/013770f5c0e47f3883587b294e076ccf.jpg"
-                    <p>O cultivo de ervas medicinais em casa é uma prática acessível e benéfica, permitindo que você tenha à mão ingredientes 
-                        frescos e naturais para cuidar da sua saúde. Este guia para iniciantes oferece uma introdução completa ao mundo das ervas medicinais, 
-                        cobrindo desde a seleção das espécies mais úteis até as técnicas básicas de plantio, manutenção e colheita. Aprenda a cultivar suas
-                         próprias ervas e aproveite seus inúmeros benefícios terapêuticos, melhorando sua qualidade de vida de maneira simples e sustentável.</p>
-                     <a href = "post3.html">Leia mais...</a>
+                <div class="product">
+                    <img src="img/produtos/begoniaEscocesa.JPG" alt="Produto 3">
+                    <h3>Begonia Escocesa</h3>
+                    <p>R$ 89,99</p>
                 </div>
-
-
             </div>
+        </section>
 
-        </div>
-       
+        <section class="blog">
+            <h2>Últimos Artigos</h2>
+            <div class="blog-list">
+                <div class="blog-post">
+                    <h3>Como cuidar das suas flores</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sed ea beatae consequatur, vitae
+                        culpa, eaque ipsum aliquam dolorum itaque molestiae minus animi magnam, praesentium magni!
+                        Accusantium nulla voluptatum omnis?</p>
+                </div>
+                <div class="blog-post">
+                    <h3>Os significados das flores</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius impedit veritatis quo pariatur
+                        fuga cumque aspernatur tempore ipsa, consectetur enim odit dolor placeat magni vitae amet
+                        doloremque unde. Rerum, illo.</p>
+                </div>
+                <div class="blog-post">
+                    <h3>Decoração com flores</h3>
+                    <p>O quam sancta quam serena, quam benigna quam amoena, O castitas lilium
+                        Esse virgo creditur. O quam sancta,quam serena quam benigna quam amoena,
+                        o castitas lilium.
+                        Kyrie, fons bonitatis kyrie, ignis divine, eleison</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Flor E Ramo. Todos os direitos reservados.</p>
+            <div class="social-icons">
+                <a href="#"><img src="img/iconFacebook.png" alt="Link para o Facebook"></a>
+                <a href="#"><img src="img/iconYoutube.png" alt="Link para o canal do Youtube"></a>
+                <a href="#"><img src="img/iconInstagram.png" alt="Link para o Instagram"></a>
+            </div>
         </div>
-    </div>
-    
+    </footer>
+
 </body>
+
 </html>

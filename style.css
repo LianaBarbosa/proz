@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #138238;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    width: 185px;
+    height: auto;
+    margin-right: 10px;
+}
+
+nav .menu {
+    display: flex;
+    list-style-type: none;
+}
+
+nav .menu li {
+    margin: 0 10px;
+}
+
+nav .menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav .menu li a:hover {
+    background-color: #0f6d2d;
+    border-radius: 4px;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+}
+
+.login-icon {
+    margin-right: 10px;
+}
+
+.login-icon img {
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.login-submit-icon {
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro h1 {
+    font-size: 36px;
+    color: #138238;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #555;
+}
+
+.products {
+    margin-bottom: 40px;
+}
+
+.products h2 {
+    font-size: 28px;
+    color: #138238;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 20px;
+    color: #555;
+}
+
+.product p {
+    font-size: 16px;
+    color: #138238;
+}
+
+.blog {
+    margin-bottom: 40px;
+}
+
+.blog h2 {
+    font-size: 28px;
+    color: #138238;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blog-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-post {
+    margin-bottom: 20px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.blog-post h3 {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.blog-post p {
+    font-size: 16px;
+    color: #777;
+}
+
+.footer {
+    background-color: #138238;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    margin-left: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+
+}
