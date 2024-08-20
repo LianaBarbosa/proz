@@ -1,0 +1,17 @@
+inicio
+escreva("informe seu nome: ")
+ leia(nome)
+
+escreva("informe seu cpf: ")
+ leia(cpf)
+
+escreva("informe seu rg:")
+ leia(rg)
+
+escreva("informe sua altura:")
+ leia(altura)
+
+escreva ("informe seu endereço:")
+ leia(endereço)
+
+fimalgoritmo
