@@ -1,0 +1,26 @@
+var
+escreva("insira quantidade de clientes")
+leia(qtsClientes);
+
+escreva("é fumante?")
+leia(fumante);
+
+escreva("tem animal de estimação?")
+leia(anima)
+
+
+inicio
+
+se
+(o cliente for fumante ou tiver animais de estimação) então
+escreva(" alocar na area externa")
+
+senão
+se ( grupo de clientes > 5) então
+escreva(" alocar 1º andar")
+
+senão
+escreva(" alocar no térreo")
+
+fimse
+fimse
